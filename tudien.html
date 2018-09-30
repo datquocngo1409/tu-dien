@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    var tiengAnh = ['A','B','C','D','E','F'];
+    var tiengViet = ['chữ A', 'chữ B', 'chữ C', 'chữ D', 'chữ E', 'Chữ F'];
+    var input=prompt("Nhập từ cần tra: ");
+    var count=0;
+    for (var i=0;i<tiengAnh.length;i++){
+      if(input==tiengAnh[i]){
+        alert(tiengViet[i]);
+        count++;
+      }
+    }
+    if (count==0) alert("Không có trong từ điển!");
+  </script>
+</body>
+</html>
